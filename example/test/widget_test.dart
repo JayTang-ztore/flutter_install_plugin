@@ -10,10 +10,4 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:install_plugin_example/main.dart';
 
 void main() {
-  testWidgets('Verify Widgets', (WidgetTester tester) async {
-    // Build our app and trigger a frame.
-    await tester.pumpWidget(new MyApp());
-
-    expect(find.byType(FlatButton), findsNWidgets(2));
-  });
 }
